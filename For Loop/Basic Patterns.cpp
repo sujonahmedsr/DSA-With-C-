@@ -6,7 +6,7 @@ int main() {
     cout << "Enter your number: ";
     cin >> n;
 
-    // Square Star Pattern
+    // 1️⃣ Square Star Pattern
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             cout << "*";
@@ -14,7 +14,7 @@ int main() {
         cout << endl;
     }
 
-    // Right Triangle Star
+    // 2️⃣ Right Triangle Star
     for(int i = 0; i < n; i++){
         for(int j = 0; j < i + 1; j++){
             cout << "*";
@@ -22,7 +22,7 @@ int main() {
         cout << endl;
     }
 
-    // Number Triangle
+    // 3️⃣ Number Triangle
     for(int i = 0; i < n; i++){
         for(int j = 0; j < i + 1; j++){
             cout << j + 1 << " ";
@@ -30,7 +30,7 @@ int main() {
         cout << endl;
     }
 
-    // Same Number Pattern
+    // 4️⃣ Same Number Pattern
     for(int i = 0; i < n; i++){
         for(int j = 0; j < i + 1; j++){
             cout << i + 1 << " ";
